@@ -80,6 +80,14 @@ $ bundle
 Rails.application.config.x.app_start_time = DateTime.now
 ```
 
+### Edit `application.js` and add the following line:
+
+```coffeescript
+
+//= require conservative_etags
+
+```
+
 ## Contributing
 
 Make a pull request.
